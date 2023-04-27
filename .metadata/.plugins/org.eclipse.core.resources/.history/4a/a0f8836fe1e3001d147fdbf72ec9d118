@@ -1,0 +1,11 @@
+void init_background(){
+	IDX = BACKGROUND;
+	X_START = 0;
+	Y_START = 0;
+	X_STOP = 640;
+	Y_STOP = 480;
+	DRAW_START = 1;
+	while(!DRAW_DONE);
+	DRAW_START = 0;
+	//FRAME_DONE = 1;
+}
